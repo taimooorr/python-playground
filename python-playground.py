@@ -30,3 +30,19 @@ lst = [1,2,3,4,5,6,7,8,9,10]
 
 even,odd = passList(lst)
 print("Even : {} and Odd : {}".format(even,odd))
+
+#Fibonacci Series 
+def fibo(n) :
+    a = 0
+    b = 1
+    
+    if n == 1 :
+        print(a)
+    else :
+        for i in range(2,n) :
+            res = a + b
+            a = b
+            b = res
+            print(res)
+fibo(10)
+        
