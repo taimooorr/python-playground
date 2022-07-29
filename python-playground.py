@@ -65,3 +65,16 @@ def factRe(n) :
     else :
         return n * fact(n-1)
 print(factRe(5))
+
+
+#Lambda Function/annonymous function
+#Function without name
+#Syntax : lambda arguments : expression
+
+#Example 1
+x = lambda a : a + 10
+print(x(5))
+#example 2
+b = lambda a,b : a+b
+
+print(b(5,6))
