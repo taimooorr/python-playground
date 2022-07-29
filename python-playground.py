@@ -78,3 +78,20 @@ print(x(5))
 b = lambda a,b : a+b
 
 print(b(5,6))
+
+
+#Some Functions map(),filter(),reduce()
+def is_even(n) :
+    return n % 2 == 0
+lst = [1,2,3,4,5,6,4,8,6,2,7,8,9,10]
+
+#evens = list(filter(is_even,lst))
+evens = list(filter(lambda n : n % 2 == 0,lst))
+print(evens)
+
+
+#map() function
+
+
+
+
