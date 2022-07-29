@@ -13,6 +13,7 @@ div(2,4)
 
 
 #Modules
-import pythonplayground
+from pythonplayground import fact
+print(fact(5))
 
-pythonplayground.factRe(5)
+
