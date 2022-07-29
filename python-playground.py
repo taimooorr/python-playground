@@ -45,4 +45,23 @@ def fibo(n) :
             b = res
             print(res)
 fibo(10)
-        
+
+
+#Factorial Program using for loop
+def fact(n) :
+    f = 1
+    for i in range(1,n+1) :
+        f = f * i
+    return f
+print(fact(5))
+
+
+#Recursion
+import sys
+sys.setrecursionlimit(2000) # in Python by defualt recursion limit is 1000 we can change limit like this
+def factRe(n) :
+    if n == 1 :
+        return 1
+    else :
+        return n * fact(n-1)
+print(factRe(5))
