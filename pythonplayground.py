@@ -57,6 +57,7 @@ print(fact(5))
 
 
 #Recursion
+from mimetypes import init
 import sys
 sys.setrecursionlimit(2000) # in Python by defualt recursion limit is 1000 we can change limit like this
 def factRe(n) :
@@ -93,5 +94,14 @@ print(evens)
 #map() function
 
 
+class person :
+    def __init__(self,name,age) :
+        self.name = name
+        self.age = age
+    def display(self):
+        print("Name : {} and Age : {}".format(self.name,self.age))
 
+p1 = person("Rahul",20)
+p1.display()
+        
 
