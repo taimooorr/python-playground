@@ -1,4 +1,8 @@
+from msilib.schema import Class
+
+
 class Person :
+    
 
     def __init__(self,Name,Age):
         self.name = Name
@@ -22,4 +26,5 @@ Person1.display()
 Person1.setName("Jack")
 Person1.display()
 
+        
 
